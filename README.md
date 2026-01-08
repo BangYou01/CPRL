@@ -5,10 +5,28 @@ against leading RL baselines.
 
 ### Predictability of Behaviors
 
-| CPRL (Ours) | RPC | SAC |
-| :---: | :---: | :---: |
-| ![Ours](video/behavior/CPRL.gif) | ![RPC](video/behavior/RPC.gif) | ![SAC](video/behavior/SAC.gif) |
-| *Smooth, periodic gait* | *High-frequency jitter* | *Unstable/Erratic* |
+<table style="width:50%; text-align:center;">
+  <tr>
+    <td colspan="2">
+      <b>Proposed Method (Ours)</b><br>
+      <img src="video/behavior/CPRL.gif" width="100%"><br>
+      <i>Our method demonstrates stable, periodic locomotion with high energy efficiency.</i>
+    </td>
+  </tr>
+
+  <tr>
+    <td style="width:50%;">
+      <b>Baseline 1 (SAC)</b><br>
+      <img src="video/behavior/RPC.gif" width="100%"><br>
+      <i>Observations: Visible jitter and torso instability.</i>
+    </td>
+    <td style="width:50%;">
+      <b>Baseline 2 (PPO)</b><br>
+      <img src="video/behavior/SAC.gif" width="100%"><br>
+      <i>Observations: Low sample efficiency leads to jerky gait.</i>
+    </td>
+  </tr>
+</table>
 
 ### Ablation Study
 Evidence of constraint satisfaction and gait stability when information constraints are varied.
