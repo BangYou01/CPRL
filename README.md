@@ -5,28 +5,25 @@ against leading RL baselines.
 
 ### Predictability of Behaviors
 
-<table style="width:50%; text-align:center;">
-  <tr>
-    <td colspan="2">
-      <b>Proposed Method (Ours)</b><br>
-      <img src="video/behavior/CPRL.gif" width="100%"><br>
-      <i>Our method demonstrates stable, periodic locomotion with high energy efficiency.</i>
-    </td>
-  </tr>
+<div align="center">
 
-  <tr>
-    <td style="width:50%;">
-      <b>Baseline 1 (SAC)</b><br>
-      <img src="video/behavior/RPC.gif" width="100%"><br>
-      <i>Observations: Visible jitter and torso instability.</i>
-    </td>
-    <td style="width:50%;">
-      <b>Baseline 2 (PPO)</b><br>
-      <img src="video/behavior/SAC.gif" width="100%"><br>
-      <i>Observations: Low sample efficiency leads to jerky gait.</i>
-    </td>
-  </tr>
-</table>
+  ### CPRL (Ours)
+  <img src="video/behavior/CPRL.gif" width="70%" />
+  <p><i>Our algorithm produces smooth, energy-efficient gait with high predictability.</i></p>
+
+  <hr>
+
+  ### Baseline 1: Soft Actor-Critic (SAC)
+  <img src="video/behavior/RPC.gif" width="70%" />
+  <p><i>Baseline exhibits significant high-frequency oscillations in the upper body.</i></p>
+
+  <hr>
+
+  ### Baseline 2: Proximal Policy Optimization (PPO)
+  <img src="video/behavior/SAC.gif" width="70%" />
+  <p><i>Baseline suffers from foot-dragging and inconsistent stride lengths.</i></p>
+
+</div>
 
 ### Ablation Study
 Evidence of constraint satisfaction and gait stability when information constraints are varied.
