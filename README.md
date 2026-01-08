@@ -1,7 +1,7 @@
 # This page provides some videos supplementing the experiments presented in our work CPRL.
 
 > [!NOTE]
-> **Video Loading:** It may take a few seconds to fully load all videos with high resolution.
+> **Video Loading:** It may take a few seconds to fully load all videos.
 
 ### Predictability of Behaviors
 
